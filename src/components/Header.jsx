@@ -62,10 +62,12 @@ const Header = () => {
 				>
 					{Links.map((link) => (
 						<li className='font-semibold my-7 lg:my-0 lg:ml-8'>
-							<a href='/'>{link.name}</a>
+							<a className='hover:text-accentColor' href='/'>
+								{link.name}
+							</a>
 						</li>
 					))}
-					<button className='bg-accentColor py-1 px-3 lg:ml-8 rounded lg:static'>
+					<button className='bg-accentColor hover:bg-darkerColor py-1 px-3 lg:ml-8 rounded lg:static transition-colors duration-200'>
 						Hire Me
 					</button>
 				</ul>

@@ -13,6 +13,7 @@ export default {
 			codeBlockTextColor: "#333333",
 			alertColor: "#e74c3c",
 			successColor: "#2ecc71",
+			darkerColor: "#005a8d",
 		},
 		extend: {},
 	},
